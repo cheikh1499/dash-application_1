@@ -78,7 +78,7 @@ app.layout= html.Div([
     #deuxieme ligne contenant les filtrage
     dbc.Row([
         dbc.Col([
-           region_:= dcc.Dropdown( 
+            region_:= dcc.Dropdown( 
                 className= "filtred",
                 id="region",
                 placeholder="Region",
